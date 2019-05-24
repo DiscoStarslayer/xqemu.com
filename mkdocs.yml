@@ -58,6 +58,12 @@ theme:
   logo:
     icon: "games"
 
+extra_css:
+- 'stylesheets/hide-github-link.css'
+
+extra_javascript:
+- 'javascripts/show-github-link.js'
+
 # Extensions
 markdown_extensions:
   - markdown.extensions.admonition
